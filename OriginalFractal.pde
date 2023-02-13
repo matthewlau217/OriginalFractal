@@ -14,7 +14,7 @@ public void draw() {
     translate(h, v);
     rotate(radians(r));
     length += (int)(Math.random() * 100);
-    r += 5;
+    r += 10;
     if (r % 360 == 0)
       c += 20;
     sierpinski(0, c, length);
