@@ -22,6 +22,8 @@ public void draw() {
       textSize(100);
       fill(255, 0, 0);
       text("Valentines?", -100, -250);
+      textSize(10);
+      text("just trust, this is a rose", -100, 250);
       exit();
     }
   } 
