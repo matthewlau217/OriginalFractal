@@ -5,7 +5,7 @@ int v = 500;
 int c = -100;
 public void setup() {
   noStroke();
-  size(1000, 1000, P3D);
+  size(1000, 1000);
   background(255); 
 }
 
@@ -19,9 +19,6 @@ public void draw() {
       c += 20;
     sierpinski(0, c, length);
     if (c >= 0){
-      translate(500, 500);
-      fill(255, 0, 0);
-      ellipse(0, 0, 50, 50);
       textSize(100);
       fill(255, 0, 0);
       text("Valentines?", -100, -250);
