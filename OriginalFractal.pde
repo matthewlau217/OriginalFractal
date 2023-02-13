@@ -28,7 +28,7 @@ public void draw() {
 } 
 
 public void sierpinski(int x, int y, int len) { 
-  fill((int)(Math.random() * 255), 0, 0);
+  fill((int)(Math.random() * 255) + 100, 0, 0);
   if(len <= 20){
     ellipse(x, y, len + 50, len + 50);
   } else { 
