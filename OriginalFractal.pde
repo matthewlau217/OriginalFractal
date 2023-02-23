@@ -6,7 +6,7 @@ public void draw() {
   pushMatrix();
   translate(width / 2, height / 2);
   rotate(PI/4);
-  for (int i = 0; i < 360; i += 60){
+  for (int i = 225; i < 700; i += 100){
     rotate(i);
   }
   textSize(40);
@@ -21,7 +21,7 @@ public void rotate(int rot){
 }
 
 public void Pedal(float x, float y, int z) {
-  if (z <= 10) {
+  if (z <= 1) {
     fill(z + 100, 0 , 0);
     ellipse(x, y, z, z);
   }
