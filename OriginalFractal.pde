@@ -29,5 +29,6 @@ public void Pedal(float x, float y, int z) {
     fill(z + 100, 0 , 0);
     ellipse(x, y, z, z);
     Pedal(x - 25, y, z - 50);
+    z -= 50;
   }
 }
